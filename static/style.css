@@ -1,0 +1,48 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 0;
+	position: absolute;
+	font: 16px Verdana;
+	color: #eee;
+	height: 25px;
+	top: calc( 100vh - 30px );
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #aaa;
+}
+span {
+	font-size: 11px;
+}
+p > a:first-of-type {
+	font-size: 20px;
+}
+body {
+	overflow: hidden;
+}
+.next-page-button {
+	/* Make it visible */
+	display: block; /* Or inline-block depending on desired width behavior */
+	visibility: visible;
+	opacity: 1;
+  
+	/* Position it at the bottom right */
+	position: fixed; /* Keeps it in the viewport even when scrolling */
+	bottom: 20px; /* Adjust this value to control the distance from the bottom */
+	right: 20px; /* Adjust this value to control the distance from the right */
+  
+	/* Optional: Add some styling to make it look good */
+	padding: 10px 20px;
+	background-color: rgb(33, 22, 22); /* Example blue color */
+	color:red ;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font: 16px Verdana;
+	
+  }
